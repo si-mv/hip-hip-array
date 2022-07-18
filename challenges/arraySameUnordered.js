@@ -12,6 +12,4 @@ function arraySameUnordered (arr1, arr2) {
   // code here
 }
 
-arraySameUnordered([1,2,3], [1,2,3])
-
 module.exports = { arraySameUnordered }
