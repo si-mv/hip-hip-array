@@ -6,7 +6,7 @@
  * @returns {any[]}
  */
 function copyPaste (n, el) {
-  return new Array(n).fill(el)
+  // code here
 }
 
 module.exports = { copyPaste }

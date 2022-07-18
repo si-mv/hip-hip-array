@@ -6,8 +6,7 @@
  * @returns {string[]}
  */
 function bigWords (words) {
-  const m = words.reduce((s, x) => s + x.length, 0) / words.length
-  return words.filter(w => w.length >= m)
+  // code here
 }
 
 module.exports = { bigWords }

@@ -4,8 +4,8 @@
  * @param {any[]} arr 
  * @returns {any[]}
  */
- function cleanUp (arr) {
-  return arr.filter(x => !isNaN(x)).map(x => Number(x))
+function cleanUp (arr) {
+  // code here
 }
 
 module.exports = { cleanUp }

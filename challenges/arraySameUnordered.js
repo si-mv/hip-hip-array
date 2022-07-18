@@ -9,27 +9,7 @@
  */
 
 function getCounter (arr) {
-  const m = new Map()
-  for (let x of arr) {
-    count = m.get(x)
-    m.set(x, count ? x + 1 : 1)
-  }
-  return m
+  // code here
 }
-
-function arraySameUnordered (arr1, arr2) {
-  
-  m1 = getCounter(arr1)
-  m2 = getCounter(arr2)
-
-  for (let x of m1.keys()) {
-    if (m1.get(x) !== m2.get(x)) return false
-  }
-
-  return true
-
-}
-
-arraySameUnordered([1,2,3], [1,2,3])
 
 module.exports = { arraySameUnordered }

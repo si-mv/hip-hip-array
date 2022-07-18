@@ -8,7 +8,7 @@
  * @returns {any[]}
  */
 function rotate (arr, r) {
-  return arr.slice(r).concat(arr.slice(0, r))
+  // code here
 }
 
 module.exports = { rotate }
