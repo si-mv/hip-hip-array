@@ -7,6 +7,7 @@
  * @param {number} r
  * @returns {any[]}
  */
+
 function rotate (arr, r) {
   // code here
 }

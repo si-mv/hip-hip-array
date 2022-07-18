@@ -6,7 +6,8 @@
  * @param {number} target 
  * @returns {number[] | boolean}
  */
- function targetPractice (nums, target) {
+
+function targetPractice (nums, target) {
   // code here
 }
 

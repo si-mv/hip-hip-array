@@ -4,6 +4,7 @@
  * @param {any[]} arr 
  * @returns {any[]}
  */
+
 function cleanUp (arr) {
   // code here
 }

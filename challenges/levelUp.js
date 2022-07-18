@@ -4,6 +4,7 @@
  * @param {number[]} arr
  * @returns {number}
  */
+
 function levelUp (arr) {
   // code here
 }

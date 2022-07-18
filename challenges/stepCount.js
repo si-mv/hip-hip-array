@@ -6,7 +6,8 @@
  * @param {number[]} arr 
  * @returns {number}
  */
- function stepCount (arr) {
+
+function stepCount (arr) {
   // code here
 }
 

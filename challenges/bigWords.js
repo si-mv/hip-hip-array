@@ -5,6 +5,7 @@
  * @param {string[]} words
  * @returns {string[]}
  */
+
 function bigWords (words) {
   // code here
 }

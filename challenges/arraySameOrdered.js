@@ -7,6 +7,7 @@
  * @param {number[]} arr2
  * @returns {any[]}
  */
+
 function arraySameOrdered (arr1, arr2) {
   // code here
 }
