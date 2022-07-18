@@ -1,0 +1,14 @@
+{
+  "name": "hip-hip-array",
+  "version": "1.0.0",
+  "description": "",
+  "main": "challenges.js",
+  "scripts": {
+    "test": "jest --bail"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.2"
+  }
+}
