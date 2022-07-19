@@ -1,13 +1,16 @@
-/**
- * Find the indices of any two numbers in nums which add to the target.
- * If it isn't possible, return false
- * e.g. ([3, 4, 1, 7], 13) => [1,3]
- * @param {number[]} nums 
- * @param {number} target 
- * @returns {number[] | boolean}
- */
- function targetPractice (nums, target) {
-  // code here
-}
+const { targetPractice } = require('../challenges/targetPractice')
 
-module.exports = targetPractice
+describe('Target practice', () => {
+
+  test('should return a pair that adds to sum', () => {
+    const arr = [1, 5, 2, 4, 3]
+    const target = 7
+    [i,j] = targetPractice(arr, target)
+    expect(arr[i] + arr[j]).toBe(target)
+  })
+
+  test('should return false if impossible', () => {
+    expect(targetPractice([1,2,3], 10)).toBe(false)
+  })
+
+})

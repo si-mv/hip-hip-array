@@ -4,11 +4,15 @@
   "description": "",
   "main": "challenges.js",
   "scripts": {
-    "test": "jest --bail"
+    "test": "jest --bail --runInBand --testSequencer=./test/testSequencer.js",
+    "test:all": "jest --runInBand"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "jest": "^28.1.2"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1"
   }
 }
