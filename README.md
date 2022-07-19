@@ -1,5 +1,7 @@
 # Hip hip array
 
+[![CI](https://github.com/swe-resources-room/hip-hip-array/actions/workflows/jest.yaml/badge.svg)](https://github.com/swe-resources-room/hip-hip-array/actions/workflows/jest.yaml)
+
 Fork it, clone it, bop it, twist it!
 
 Once you have it on your machine, run `npm install` and `npm run test`.
