@@ -9,7 +9,16 @@
  */
 
 function arraySameOrdered (arr1, arr2) {
-  // code here
+  const m = arr1.length
+  const n = arr2.length
+
+  if (m !== n) return false
+
+  for (let i = 0; i < m; i += 1) {
+    if (arr1[i] !== arr2[i]) return false
+  }
+
+  return true
 }
 
 module.exports = { arraySameOrdered }

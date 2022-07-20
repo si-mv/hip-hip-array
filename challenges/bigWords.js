@@ -7,7 +7,8 @@
  */
 
 function bigWords (words) {
-  // code here
+  const m = words.reduce((S, w) => S += w.length, 0) / words.length
+  return words.filter(w => w.length >= m)
 }
 
 module.exports = { bigWords }

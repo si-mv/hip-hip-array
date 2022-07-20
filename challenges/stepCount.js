@@ -8,7 +8,22 @@
  */
 
 function stepCount (arr) {
-  // code here
+  if (arr.length < 2) return 0
+
+  let i = 0
+  const L = []
+
+  for (let j = 1; j < arr.length; j += 1) {
+    if (arr[j] <= arr[j-1]) {
+      L.push(j - i)
+      i = j
+    }
+  }
+  L.push(arr.length - i)
+
+  return L.reduce((S, n) => S += n * (n - 1) / 2, 0)
 }
+
+console.log(stepCount([2, 5, 9, 7, 1, 3, 4, 6, 1, 0, 1]))
 
 module.exports = { stepCount }

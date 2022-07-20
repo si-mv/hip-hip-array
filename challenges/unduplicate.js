@@ -7,7 +7,7 @@
  */
 
 function unduplicate (arr) {
-  // code here
+  return [... new Set(arr)]
 }
 
 module.exports = { unduplicate }

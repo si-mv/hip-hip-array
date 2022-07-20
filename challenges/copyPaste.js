@@ -7,7 +7,7 @@
  */
 
 function copyPaste (n, el) {
-  // code here
+  return new Array(n).fill(el)
 }
 
 module.exports = { copyPaste }

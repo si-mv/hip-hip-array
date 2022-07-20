@@ -6,7 +6,7 @@
  */
 
 function cleanUp (arr) {
-  // code here
+  return arr.filter(x => !isNaN(x)).map(x => Number(x))
 }
 
 module.exports = { cleanUp }
