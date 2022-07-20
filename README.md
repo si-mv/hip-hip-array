@@ -1,6 +1,6 @@
 # Hip hip array
 
-[![Tests](https://github.com/swe-resources-room/hip-hip-array/actions/workflows/jest.yaml/badge.svg?event=push)](https://github.com/swe-resources-room/hip-hip-array/actions/workflows/jest.yaml)
+[![Tests](https://github.com/si-mv/hip-hip-array/actions/workflows/jest.yaml/badge.svg?event=push)](https://github.com/si-mv/hip-hip-array/actions/workflows/jest.yaml)
 
 Fork it, clone it, bop it, twist it!
 
