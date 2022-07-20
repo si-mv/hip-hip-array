@@ -7,7 +7,7 @@ describe('Clean Up', () => {
   })
 
   test('should clean up an array', () => {
-    expect(cleanUp([1, '2', 'three', false, [5]])).toEqual([0, 1, 2])
+    expect(cleanUp([1, '2', 'three', false, [5]])).toEqual([1, 2, 0])
   })
 
 })
