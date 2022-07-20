@@ -11,7 +11,7 @@ describe('Step count', () => {
   })
 
   test('should return 0 for a decreasing sequence', () => {
-    expect(stepCount([5, 4, 3, 2, 1])).toBe(1)
+    expect(stepCount([5, 4, 3, 2, 1])).toBe(0)
   })
 
 })
