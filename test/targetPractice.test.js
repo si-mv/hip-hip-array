@@ -5,7 +5,7 @@ describe('Target practice', () => {
   test('should return a pair that adds to sum', () => {
     const arr = [1, 5, 2, 4, 3]
     const target = 7
-    [i,j] = targetPractice(arr, target)
+    const [i,j] = targetPractice(arr, target)
     expect(arr[i] + arr[j]).toBe(target)
   })
 
