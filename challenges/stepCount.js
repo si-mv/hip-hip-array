@@ -10,17 +10,26 @@
 function stepCount (arr) {
   if (arr.length < 2) return 0
 
+  // this solutions uses two pointers, i and j
+  // i is always smaller than j
   let i = 0
+
+  // L is an array of the _lengths_ of the *largest* increasing subsequence starting at i
   const L = []
 
+  // attempt to find largest increasing subsequence starting at i and ending at j
   for (let j = 1; j < arr.length; j += 1) {
     if (arr[j] <= arr[j-1]) {
+      // when i -> j fails to be increasing, we found the biggest increasing subsequence starting at i
+      // add its length to L and let i now "catch up" with j
       L.push(j - i)
       i = j
     }
   }
+  // if i -> arr.length is increasing, the above loop won't capture it! so add it
   L.push(arr.length - i)
 
+  // this uses a cool bit of maths: https://t.ly/n-H0
   return L.reduce((S, n) => S += n * (n - 1) / 2, 0)
 }
 
