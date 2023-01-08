@@ -9,7 +9,7 @@
  */
 
 function rotate (arr, r) {
-  return arr.slice(r).concat(arr.slice(0,r))
+  return arr.slice(r).concat(arr.slice(0, r))
 }
 
 module.exports = { rotate }

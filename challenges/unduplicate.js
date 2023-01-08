@@ -7,7 +7,10 @@
  */
 
 function unduplicate (arr) {
-  return [... new Set(arr)]
+  // a 'set' in js removes all duplicates
+  // we spread this into a new array with the ... operator
+  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+  return [...new Set(arr)]
 }
 
 module.exports = { unduplicate }

@@ -6,6 +6,7 @@
  */
 
 function levelUp (arr) {
+  // a loop is fine way, but this is neat:
   return arr.reduce((S, x, i) => S += x * i, 0)
 }
 

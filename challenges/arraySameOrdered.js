@@ -14,6 +14,7 @@ function arraySameOrdered (arr1, arr2) {
 
   if (m !== n) return false
 
+  // fail-fast loop
   for (let i = 0; i < m; i += 1) {
     if (arr1[i] !== arr2[i]) return false
   }
